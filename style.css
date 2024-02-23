@@ -1,0 +1,22 @@
+*,*::before,*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  
+}
+
+.box {
+  border: 1px solid #000;
+  width: 20px;
+  height: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+}
