@@ -8,10 +8,9 @@ body {
   
 }
 
-.box {
-  border: 1px solid #000;
-  width: 20px;
-  height: 20px;
+h1 {
+  text-align: center;
+
 }
 
 .container {
@@ -19,4 +18,11 @@ body {
   max-width: 960px;
   display: flex;
   flex-wrap: wrap;
+}
+
+.box {
+  border: 1px solid #000;
+  width: 60px;
+  height: 60px;
+  flex: 1 0 6.25%;
 }
